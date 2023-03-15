@@ -1,0 +1,50 @@
+@font-face {
+    src:url("Azonix-1VB0.otf");
+    font-family:Azonix;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://panmigawka.pl/wp-content/uploads/2022/05/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration-1-scaled.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    text-shadow: 1px 1px 10px #433bf9;
+}
+
+h1 {
+    font-family:Azonix;
+    letter-spacing: 2px;
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+button{
+    background-color: #433bf9;
+    margin-top:20px;
+    padding:50px;
+    border:none;
+    border-radius:50%;
+    box-shadow: 1px 1px 10px #433bf9;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+
+button:hover,
+button:active{
+    box-shadow: 1px 1px 50px #433bf9;
+}
+
+.spiral {
+    background-image: url('https://media0.giphy.com/media/xT39CTrFW4nHLdBPpu/giphy.gif');
+    background-size:cover;
+}
